@@ -10,7 +10,7 @@ int main(int argc, char *argv[]) {
        if (anni != 0)
            printf("Secondo argomento utente (%s) valido %d\n", argv[2], anni);
        else {
-           printf("Secondo argomento utente (%s) non valido \n", argv[2]);
+           printf("Secondo argomento utente (%s) non valido\n", argv[2]);
            return -1;
        }
     }
